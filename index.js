@@ -1,6 +1,11 @@
-var abs = Math.abs
-var max = Math.max
-
 module.exports = function chebyshev(a, b) {
-  return max(abs(b.x - a.x), abs(b.y - a.y))
+  var farthest = 0
+  var dimensions = Math.max(a.length, b.length)
+  for (var i = 0; i < dimensions; i++) {
+    var distance = Math.abs((b[i] || 0) - (a[i] || 0))
+    if (distance > farthest) {
+      farthest = distance
+    }
+  }
+  return farthest
 }

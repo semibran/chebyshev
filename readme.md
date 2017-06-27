@@ -1,22 +1,19 @@
 # chebyshev
-> Determines the [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance) between two points in two-dimensional space
+[![NPM](https://nodei.co/npm/chebyshev.png?mini)](https://www.npmjs.com/package/chebyshev)
 
-## install
-```sh
-npm install chebyshev
-```
+This module exposes the function `chebyshev(a, b)` for determining the [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance) between points `a` and `b`.
 
-## usage
+![Chebyshev distance from the square F6](diagram.png)
+
 ```js
-const chebyshev = require('chebyshev')
-```
-
-### `chebyshev(a, b)`
-Determines the Chebyshev distance between points `a` and `b`, where a point is an object with the fields `x` and `y`.
-```js
-> chebyshev({ x: 6, y: 6 }, { x: 5, y: 2 })
+> const chebyshev = require('chebyshev')
+> chebyshev([6, 6], [5, 2])
 4
 ```
+
+## see also
+- [`semibran/vector`]() - more vector math
+- [`hughsk/moore`]() - find all cells within a Chebyshev distance of 1
 
 ## license
 [MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)

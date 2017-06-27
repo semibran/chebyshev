@@ -1,10 +1,11 @@
 {
  "name": "chebyshev",
  "version": "0.1.0",
- "description": "Determine the Chebyshev distance between two points in two-dimensional space",
+ "description": "Determine the Chebyshev distance between two points",
  "keywords": [
    "chebyshev",
    "distance",
+   "math",
    "geometry"
  ],
  "main": "index.js",
