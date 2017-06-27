@@ -1,7 +1,7 @@
 # chebyshev
 ![Chebyshev distance from the square F6](diagram.png)
 
-This module exposes the function `chebyshev(a, b)` for determining the [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance) between points `a` and `b`.
+This module exposes the function `chebyshev(a, b)`, which determines the [Chebyshev distance](https://en.wikipedia.org/wiki/Chebyshev_distance) between points `a` and `b`.
 
 ```js
 > const chebyshev = require('chebyshev')
