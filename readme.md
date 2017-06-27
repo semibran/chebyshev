@@ -13,7 +13,7 @@ This module exposes the function `chebyshev(a, b)` for determining the [Chebyshe
 
 ## see also
 - [`semibran/vector`](https://github.com/semibran/vector) - more vector math
-- [`hughsk/moore`](https://github.com/semibran/moore) - find all points within a Chebyshev distance of 1
+- [`hughsk/moore`](https://github.com/hughsk/moore) - find all points within a Chebyshev distance of 1
 
 ## license
 [MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)
