@@ -1,4 +1,4 @@
-module.exports = function chebyshev(a, b) {
+module.exports = function distance(a, b) {
   var farthest = 0
   var dimensions = Math.max(a.length, b.length)
   for (var i = 0; i < dimensions; i++) {
