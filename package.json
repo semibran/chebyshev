@@ -3,16 +3,13 @@
  "version": "0.2.1",
  "description": "Determine the Chebyshev distance between two points",
  "keywords": [
-   "chebyshev",
-   "distance",
-   "math",
-   "geometry"
+  "chebyshev",
+  "distance",
+  "math",
+  "geometry"
  ],
  "files": ["index.js"],
  "license": "MIT",
  "author": "Brandon Semilla (https://github.com/semibran)",
- "repository": {
-  "type": "git",
-  "url": "https://github.com/semibran/chebyshev.git"
- }
+ "repository": "semibran/chebyshev"
 }
