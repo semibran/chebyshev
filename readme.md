@@ -12,7 +12,7 @@ This module exposes the function `chebyshev(a, b)`, which determines the Chebysh
 [![NPM](https://nodei.co/npm/chebyshev.png?mini)](https://www.npmjs.com/package/chebyshev)
 
 ## see also
-- [`semibran/manhattan`](https://github.com/semibran/manhattan) - calculate manhattan distance
+- [`semibran/manhattan`](https://github.com/semibran/manhattan) - calculate Manhattan distance
 - [`semibran/vector`](https://github.com/semibran/vector) - more vector math
 - [`hughsk/moore`](https://github.com/hughsk/moore) - find all points within a given Chebyshev distance
 
