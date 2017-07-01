@@ -1,7 +1,7 @@
 {
  "name": "chebyshev",
  "version": "0.2.1",
- "description": "Determine the Chebyshev distance between two points",
+ "description": "Calculate the Chebyshev distance between two points",
  "keywords": [
   "chebyshev",
   "distance",
